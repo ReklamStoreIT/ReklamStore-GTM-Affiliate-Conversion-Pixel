@@ -1,0 +1,6 @@
+homepage: "http://my.reklamaction.com"
+documentation: "https://support.reklamstore.com/reklam-store-affiliate"
+versions:
+# Latest Version
+  - sha: 219313301ddfc0d8b467004b9f28d326b463e673
+    changeNotes: Created metadata.yaml.
