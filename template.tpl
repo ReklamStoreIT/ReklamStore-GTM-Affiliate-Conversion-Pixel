@@ -85,7 +85,7 @@ const onFailure = () => {
 };
 
 if(advSub != null){
-	const url = ("https://ad.adrttt.com/SPA7m?adv_sub="+advSub+"&amount="+amount+"&transaction_id="+transactionId);
+	const url = ("https://ad.reklm.com/SPA7m?adv_sub="+advSub+"&amount="+amount+"&transaction_id="+transactionId);
   
   if (encodeUriComponent('sendPixel', url)) {
   	log('sendPixel: ', url);
@@ -95,7 +95,7 @@ if(advSub != null){
   
 }
 else{
-  const url = ("https://ad.adrttt.com/SPA7m?amount="+amount+"&transaction_id="+transactionId);
+  const url = ("https://ad.reklm.com/SPA7m?amount="+amount+"&transaction_id="+transactionId);
   
   if (encodeUriComponent('sendPixel', url)) {
   	log('sendPixel: ', url);
@@ -144,7 +144,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://ad.adrttt.com/*"
+                "string": "https://ad.reklm.com/*"
               }
             ]
           }
